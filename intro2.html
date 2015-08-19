@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Buttons</title>
+</head>
+<body>
+	<form action="http://www.example.com/add.php">
+		<button>Add</button>
+		<br />
+		<input type="hidden" name="bookmark" value="lyrics" />
+		<label>Age: <input type="text"  name="age" /></label>
+		<br />
+		Gender:
+		<input id="female" type="radio" name="gender" value="f" />
+		<label for="female">Female</label>
+		<input id="male" type="radio" name="gender" value="m" />
+		<label for="male">Male</label>
+		<br />
+
+		<fieldset>
+			<legend>Contact Details</legend>
+			<label>Email:<br />
+			<input type="text" name="email" />
+			</label>
+			<br />
+			<lable>Mobile:<br />
+			<input type="text" name="mobile">
+			</lable>
+			<br />
+			<lable>Telephone:<br />
+			<input type="text" name="telephone">
+			</lable>
+		</fieldset>
+
+		<!--Below we are working with formvalidation-->
+		<label for="usr">Username:</label>
+	 	<input type="text" name="username" id="usr" required /></title><br />
+	 	<label for="pswd">Password:</label>
+	 	<input type="password" name="password" id="pswd" required="required" />
+	 	<br />
+	 	<label>Departure Date:<input type="date" name="depart" /></label>
+	 	<br />
+	 	<label>Email: <input type="email" name="emailadress" /></label>
+	 	<br />
+	 	<label>URL: <input type="url" name="url" /></label>
+	 	<br />
+	 	<label> Search <input type="search" name="searchquery"  placeholder="Enter Keywords" /></label>
+
+	 	<input type="submit" value="Submit" />
+	</form>
+</body>
+</html>
